@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DashboardHomeComponent } from './dashboard-home.component';
+import { CakeViewComponent } from './cake-view.component';
 
-describe('DashboardHomeComponent', () => {
-  let component: DashboardHomeComponent;
-  let fixture: ComponentFixture<DashboardHomeComponent>;
+describe('CakeViewComponent', () => {
+  let component: CakeViewComponent;
+  let fixture: ComponentFixture<CakeViewComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DashboardHomeComponent ]
+      declarations: [ CakeViewComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(DashboardHomeComponent);
+    fixture = TestBed.createComponent(CakeViewComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

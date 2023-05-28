@@ -4,13 +4,31 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { SearchComponent } from './components/search/search.component';
-import { CartViewComponent } from './components/cart-view/cart-view.component';
-import { CollectionViewComponent } from './components/collection-view/collection-view.component';
-import { ItemViewComponent } from './components/item-view/item-view.component';
-import { RegistarFormComponent } from './components/registar-form/registar-form.component';
-import { CakeViewComponent } from './components/cake-view/cake-view.component';
-import { CookiesViewComponent } from './components/cookies-view/cookies-view.component';
-import { BrowniesViewComponent } from './components/brownies-view/brownies-view.component';
+import { CartViewComponent } from './components/cart-view/cart-view.component'
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ItemComponent } from './components/item/item.component';
+import { HomeComponent } from './components/home/home.component';
+import { CheckoutFormComponent } from './components/checkout-form/checkout-form.component';
+
+
+
+
+// modules start
+
+import {ReactiveFormsModule,FormsModule } from '@angular/forms';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatToolbarModule } from '@angular/material/toolbar'
+import {MatIconModule} from '@angular/material/icon'
+import {MatCardModule} from '@angular/material/card'
+import {HttpClientModule } from '@angular/common/http';
+import {PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import {MatOptionModule, MatOptionParentComponent } from '@angular/material/core';
+import {MatSelectModule} from '@angular/material/select';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
+import { FooterComponent } from './components/footer/footer.component';
+
+// modules end 
+
 
 
 @NgModule({
@@ -19,17 +37,35 @@ import { BrowniesViewComponent } from './components/brownies-view/brownies-view.
     NavbarComponent,
     SearchComponent,
     CartViewComponent,
-    CollectionViewComponent,
-    ItemViewComponent,
-    RegistarFormComponent,
-    CakeViewComponent,
-    CookiesViewComponent,
-    BrowniesViewComponent,
-   
+    PageNotFoundComponent,
+    ItemComponent,
+    HomeComponent,
+    CheckoutFormComponent,
+    FooterComponent,
+  
+    
+
   ],
+  // modules 
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatToolbarModule,
+    MatFormFieldModule,
+    MatIconModule,
+    MatCardModule,
+    HttpClientModule,
+    MatOptionModule,
+    MatSelectModule,
+    ReactiveFormsModule,
+    MatProgressBarModule,
+    FormsModule,
+   
+   
+
+    
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

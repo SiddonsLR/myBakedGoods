@@ -1,0 +1,14 @@
+{
+  "checkout": [
+    {
+      "id":1,
+      "firstName": 1,
+      "lastName": "json-server",
+      "email":"tmoss@exampl.com",
+      "creditcard": "typicode",
+      "expDate": "03/25",
+      "total": "json-server",
+      "date": "typicode"
+    }
+  ]
+}

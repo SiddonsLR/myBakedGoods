@@ -1,1 +1,20 @@
-<p>navbar works!</p>
+<!-- header -->
+<mat-toolbar class="toolbar">
+  <div class="logo">
+    <div class="img"><img src="" alt="" /></div>
+  <span routerLink="home"><strong>My Baked Goods</strong></span>
+</div>
+  <div>
+    <input class="searchbar" matInput type="text" />
+    <mat-icon>search</mat-icon>
+  </div>
+
+  <a routerLink="cart">
+    <button class="btn btn-color" >
+      <mat-icon>shopping_cart_checkout </mat-icon>
+      <div class="badge ">{{ totalItems }}</div>
+    </button>
+  </a>
+</mat-toolbar>
+<!-- header end -->
+

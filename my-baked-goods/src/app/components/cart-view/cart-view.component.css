@@ -1,0 +1,120 @@
+/* cart empty */
+.card-empty {
+  height: 60vh;
+  margin: 2rem;
+  padding: 3rem;
+}
+.card-title {
+  font-family: dancing script;
+  font-size: 3rem;
+  color:rgb(139 48 127);
+}
+.h {
+  font-family: dancing script;
+  font-size: 2rem;
+  color: rgb(139 48 127);
+}
+.btn-shop {
+  height: 3rem;
+  width: 9rem;
+  color:white;
+  font-size:33px;
+  font-family:dancing script, sans-serif;
+  background-color:#8b307f;
+  border: none;
+  border-radius: 4px;
+  transition:0.2s;
+}
+.btn-shop:hover{
+  background-color:#418ec6;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* cart empty end */
+/* cart with items  */
+.cart-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 24px;
+  position:relative;
+}
+.card {
+  box-sizing: border-box;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  margin: 10px;
+  width:300px;
+
+}
+.card-top {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 300px;
+}
+.card-top > h1 {
+  font-family: dancing script, sans-serif;
+  font-size: 33px;
+  color: #8b307f;
+}
+.card-bottom {
+  box-sizing: border-box;
+  width: 300px;
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+.card-bottom > p {
+  line-height: 1.3em;
+  text-align: left;
+  font-size: 16px;
+  margin:4px;
+}
+.card-bottom > .delete {
+  height: 3rem;
+  width: 9rem;
+  font-family: dancing script, sans-serif;
+  font-size: 24px;
+  background-color: #8b307f;
+  color: #eee;
+  border: none;
+  border-radius: 4px;
+  margin:4px;
+}
+.card-bottom > .delete:hover {
+  background: #418ec6;
+  color:white;
+}
+.action-btn{
+  position:relative;
+  margin-bottom: 5rem;
+  bottom:0;
+}
+.btn1{
+  height: 3rem;
+  width: 9rem;
+  font-family: dancing script, sans-serif;
+  font-size: 33px;
+  background-color: #8b307f;
+  color: #eee;
+  border: none;
+  border-radius: 4px;
+  margin:19px;
+  transition:0.2s;
+}
+.btn1:hover{
+  background: #418ec6;
+  color:white;
+}
+/* cart with items end */

@@ -1,0 +1,47 @@
+<!-- category header -->
+<div class="container">
+<div class="catagory-btns">
+  <div class="list">
+    <span (click)="OnAllProductsClick()"> All Confections</span>
+  </div>
+  <div class="list">
+    <span (click)="OnCakeClick()"> Cake</span>
+  </div>
+  <div class="list">
+    <span (click)="OnCookieClick()"> Cookies</span>
+  </div>
+  <div class="list">
+    <span (click)="OnBrowniesClick()">Brownies</span>
+  </div>
+</div>
+<!-- category header end -->
+
+<!-- product card -->
+<div class="card-container">
+  <ng-container *ngFor="let item of productList">
+    <div class="card">
+      <div class="card-top">
+        <img
+          class="card-img"
+          src="{{item.img}}"
+          alt="Photo of a Shiba Inu"
+        />
+        <h1>
+          <strong>{{ item.item }}</strong>
+        </h1>
+      </div>
+      <div class="card-bottom">
+        <p>{{ item.description }}</p>
+        <p>
+          <strong>{{ item.price }}</strong>
+        </p>
+        <button class="btn-add" (click)="addToCart(item)">
+          <strong>Add To Cart</strong>
+        </button>
+      </div>
+    </div>
+  </ng-container>
+</div>
+</div>
+
+<!-- product card end -->

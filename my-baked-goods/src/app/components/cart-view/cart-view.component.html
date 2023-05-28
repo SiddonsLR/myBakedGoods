@@ -1,1 +1,51 @@
-<p>cart-view works!</p>
+<!-- cart with items -->
+<div class="cart-container">
+<ng-container *ngIf="products.length !=0">
+  <div class="card" *ngFor=" let item of products; let i =index">
+    <div class="card-top">
+      <img
+        class="card-img"
+        src="{{item.img}}"
+        alt="Photo of a Shiba Inu"
+      />
+      <h1>
+        <strong>{{ item.item }}</strong>
+      </h1>
+    </div>
+    <div class="card-bottom">
+      <p>{{ item.description }}</p>
+      <p><strong>{{ item.price }}</strong></p>
+      <button (click)="removeItem(item)" class="delete"><mat-icon>delete</mat-icon></button>
+    </div>
+  </div>
+
+  <div class="action-btn">
+<button routerLink="checkout" class="btn1">Checkout</button>
+<button routerLink="/home" class="btn1">Shop More</button>
+  </div>
+</ng-container>
+</div>
+
+  
+<!-- cart with items end -->
+
+
+<!-- cart without items -->
+<ng-container *ngIf="products.length ==0">
+  <div class=" empty-container">
+    <div class="card-empty">
+      <h5 class="card-title">My Cart</h5>
+      <div class="center">
+        <img src="" alt="">
+        <h2 class="h">Your Cart is Empty</h2>
+        <h3 >Add Items to it now</h3>
+        <button routerLink="/home" class="btn-shop"> Shop</button>
+      </div>
+    </div>
+  </div>
+</ng-container>
+<!-- cart without items end -->
+
+
+
+

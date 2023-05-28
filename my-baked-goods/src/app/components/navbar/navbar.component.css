@@ -1,0 +1,50 @@
+
+/* header */
+.mat-toolbar-row, .mat-toolbar-single-row {
+    position:fixed;
+    top:0;
+    z-index: 1;
+    display: flex;
+    flex-wrap:wrap;
+    box-sizing: border-box;
+    padding: 0 16px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    white-space: wrap;
+    justify-content: space-around;
+    color:rgb(139 48 127);
+    background-color:rgb(250 234 235);
+    font-size: 2.5rem;
+    font-family: 'Dancing Script', cursive;
+    padding-bottom:1rem;
+    
+}
+.img{
+    width:2rem;
+    height: 2rem;
+}
+.toolbar{
+    height:fit-content;
+}
+
+.mat-icon {
+ color:#418ec6;
+}
+.badge{
+    color:#8b307f;
+}
+.searchbar{
+    height:2rem;
+    border-color: #8b307f;
+}
+
+/* header end */
+
+
+
+@media screen and (min-width: 1000px) {
+    .toolbar{
+        height:fit-content;
+    }
+}

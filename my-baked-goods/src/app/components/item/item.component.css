@@ -3,7 +3,7 @@
 .catagory-btns {
   position: relative;
   top:6rem;
-  z-index: 1;
+  
   display: flex;
   justify-content: space-around;
   font-family: "Dancing Script";
@@ -27,7 +27,7 @@
   height:300px;
   width:300px;
 }
-.card-container {
+.c-container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -42,6 +42,7 @@
   box-sizing: border-box;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
   margin: 10px;
+  margin-bottom:4rem;
   height: 198px;
   overflow: hidden;
   transition: 1s;
@@ -88,8 +89,8 @@
   width: 9rem;
   font-family: dancing script, sans-serif;
   font-size: 24px;
-  background-color: #8b307f;
-  color: #eee;
+  background-color:rgb(250 234 235);
+  color:#418ec6;
   border: none;
   border-radius: 4px;
   transition: 0.5s;
@@ -101,6 +102,24 @@
 
 /* card end */
 
+@media screen and (max-width: 1000px) {
+  /* category header  */
+  .catagory-btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7rem;
+  }
+  .list {
+    margin: 1.5rem;
+  }
+  .catagory-btns{
+    margin-top:6rem;
+  }
+
+  /* category header */
+}
 @media screen and (max-width: 650px) {
   /* category header  */
   .catagory-btns {
@@ -108,13 +127,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 1rem;
+    margin: 7rem;
   }
   .list {
     margin: 1.5rem;
   }
   .catagory-btns{
-    margin-top:2em;
+    margin-top:6rem;
   }
 
   /* category header */

@@ -1,7 +1,7 @@
 /* cart empty */
 .card-empty {
   height: 60vh;
-  margin: 2rem;
+  margin: 6rem;
   padding: 3rem;
 }
 .card-title {
@@ -14,13 +14,18 @@
   font-size: 2rem;
   color: rgb(139 48 127);
 }
+.total{
+  color:#418ec6;
+  font-size: 33px;
+}
 .btn-shop {
   height: 3rem;
   width: 9rem;
   color:white;
   font-size:33px;
   font-family:dancing script, sans-serif;
-  background-color:#8b307f;
+  background-color:rgb(250 234 235);
+  color:#418ec6;
   border: none;
   border-radius: 4px;
   transition:0.2s;
@@ -38,22 +43,28 @@
 }
 /* cart empty end */
 /* cart with items  */
-.cart-container {
+.cartview-container{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+.bcard-container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
   margin: 24px;
+  margin-top:6rem;
   position:relative;
 }
-.card {
+.bcard {
   box-sizing: border-box;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
   margin: 10px;
   width:300px;
 
 }
-.card-top {
+.bcard-top {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -61,12 +72,12 @@
   align-items: center;
   width: 300px;
 }
-.card-top > h1 {
+.bcard-top > h1 {
   font-family: dancing script, sans-serif;
   font-size: 33px;
   color: #8b307f;
 }
-.card-bottom {
+.bcard-bottom {
   box-sizing: border-box;
   width: 300px;
   margin-top: 16px;
@@ -75,29 +86,29 @@
   justify-content: space-between;
   
 }
-.card-bottom > p {
+.bcard-bottom > p {
   line-height: 1.3em;
   text-align: left;
   font-size: 16px;
   margin:4px;
 }
-.card-bottom > .delete {
+.bcard-bottom > .delete {
   height: 3rem;
   width: 9rem;
   font-family: dancing script, sans-serif;
   font-size: 24px;
-  background-color: #8b307f;
-  color: #eee;
+  background-color:rgb(250 234 235);
+  color:#8b307f;
   border: none;
   border-radius: 4px;
   margin:4px;
 }
-.card-bottom > .delete:hover {
+.bcard-bottom > .delete:hover {
   background: #418ec6;
   color:white;
 }
 .action-btn{
-  position:relative;
+  position: inherit;
   margin-bottom: 5rem;
   bottom:0;
 }
@@ -117,4 +128,5 @@
   background: #418ec6;
   color:white;
 }
+
 /* cart with items end */

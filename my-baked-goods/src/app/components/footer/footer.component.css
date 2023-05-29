@@ -1,7 +1,10 @@
 .footer{
-    position:relative;
+    position:fixed;
     bottom:0;
+    z-index: 1;
     background-color:#8b307f ;
+    display:flex;
+    justify-content: space-evenly;
 }
 .ft-btn{
     height: 3rem;
@@ -19,4 +22,8 @@
     background: #418ec6;
     color:white;
   }
+.footer-img{
+  width:33px;
+  height:33px;
 
+}

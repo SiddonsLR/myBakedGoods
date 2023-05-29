@@ -7,16 +7,19 @@ import { CartService } from 'src/app/services/cart.service';
   styleUrls: ['./cart-view.component.css']
 })
 export class CartViewComponent implements OnInit {
+
   public products: any =[];
-  public grandTotal : number =0 ;
+  public grandTotal ! : number ;
 
   constructor(private cartService:CartService){}
 
   ngOnInit(): void {
     this.cartService.getProducts()
     .subscribe(res=>{this.products=res;
-    this.grandTotal = this.cartService.getTotalPrice()
+      this.grandTotal = this.cartService.getTotalPrice()
+   
     })
+
   }
 
   removeItem(item:any){

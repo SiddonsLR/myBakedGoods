@@ -1,9 +1,9 @@
 export interface Item {
     id:number,
-    type:string,
+    tag:string,
     item: string,
     description: string,
-    price: string,
-    unit: string,
+    price: number,
+    total:number,
     img:string 
 }

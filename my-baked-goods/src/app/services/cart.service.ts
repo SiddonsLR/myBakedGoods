@@ -25,12 +25,13 @@ export class CartService {
     this.productList.next(this.cartItemList);
     this.getTotalPrice();
     console.log(this.cartItemList)
+    console.log(this.getTotalPrice())
   }
 
   getTotalPrice() : number {
     let grandTotal = 0;
     this.cartItemList.map((a: any) => {
-      grandTotal += a.total;
+      grandTotal += a.price;
     })
     return grandTotal
   }

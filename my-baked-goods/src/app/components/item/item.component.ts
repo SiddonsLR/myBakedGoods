@@ -22,8 +22,10 @@ export class ItemComponent implements OnInit {
 
  ngOnInit(): void {
   this.itemService.getProducts().subscribe(res=>{this.productList=res;
-  this.productList.forEach((a:any)=>{ Object.assign(a,{quanity:1,total:a.price})});
+  this.productList.forEach((a:any)=>{ Object.assign(a,{quanity:1,total:a.total})});
   })
+
+
  }
 
  addToCart(item:any){

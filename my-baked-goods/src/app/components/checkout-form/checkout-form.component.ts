@@ -38,7 +38,7 @@ export class CheckoutFormComponent implements OnInit {
           Validators.maxLength(10),
         ],
       ],
-      date: ['', Validators.required],
+  
       creditCard: ['', Validators.required],
     });
   }

@@ -5,7 +5,8 @@
       "tag": "cake",
       "item": "Cherry Cheesecake",
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus asperiores veniam quaerat! Quod, dolorem quisquam illo autem ipsam corporis vero, et iste sint rem sit quae beatae. Numquam, veniam laborum.",
-      "price": "$1.75",
+      "price": 1.75,
+      "total":1.75,
       "img": "../../../assets/images/Cherry Jelly Cheesecake.jpg"
     },
     {
@@ -13,7 +14,8 @@
       "tag": "cake",
       "item": "Chocolate Blueberries Cake",
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus asperiores veniam quaerat! Quod, dolorem quisquam illo autem ipsam corporis vero, et iste sint rem sit quae beatae. Numquam, veniam laborum.",
-      "price": "$1.75",
+      "price": 1.75,
+      "total":1.75,
       "img": "../../../assets/images/Chocolate Blueberries Cake.jpg"
     },
     {
@@ -21,7 +23,8 @@
       "tag": "cake",
       "item": "Classic Cheesecake",
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus asperiores veniam quaerat! Quod, dolorem quisquam illo autem ipsam corporis vero, et iste sint rem sit quae beatae. Numquam, veniam laborum.",
-      "price": "$1.75",
+      "price": 1.75,
+      "total":1.75,
       "img": "../../../assets/images/Classic Cheesecake.jpg"
     },
     {
@@ -29,7 +32,8 @@
       "tag": "cake",
       "item": "Cookies Cream Cake",
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus asperiores veniam quaerat! Quod, dolorem quisquam illo autem ipsam corporis vero, et iste sint rem sit quae beatae. Numquam, veniam laborum.",
-      "price": "$1.75",
+      "price": 1.75,
+      "total":1.75,
       "img": "../../../assets/images/Cookies Cream Cake.jpg"
     },
 
@@ -38,7 +42,8 @@
       "tag": "cookies",
       "item": "Chocolate Chip Cookies",
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus asperiores veniam quaerat! Quod, dolorem quisquam illo autem ipsam corporis vero, et iste sint rem sit quae beatae. Numquam, veniam laborum.",
-      "price": "$1.75",
+      "price": 1.75,
+      "total":1.75,
       "img": "../../../assets/images/Chocolate Cookies.jpg"
     },
     {
@@ -46,7 +51,8 @@
       "tag": "cookies",
       "item": "Lemon Pound Cake Cookie",
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus asperiores veniam quaerat! Quod, dolorem quisquam illo autem ipsam corporis vero, et iste sint rem sit quae beatae. Numquam, veniam laborum.",
-      "price": "$1.75",
+      "price": 1.75,
+      "total":1.75,
       "img": "../../../assets/images/Ginger Snap.jpg"
     },
     {
@@ -54,7 +60,8 @@
       "tag": "cookies",
       "item": "Oatmeal with Raisin",
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus asperiores veniam quaerat! Quod, dolorem quisquam illo autem ipsam corporis vero, et iste sint rem sit quae beatae. Numquam, veniam laborum.",
-      "price": "$1.75",
+      "price": 1.75,
+      "total":1.75,
       "img": "../../../assets/images/Oatmeal with Rasin.jpg"
     },
     {
@@ -62,7 +69,8 @@
       "tag": "cookies",
       "item": "Sugar Cookies",
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus asperiores veniam quaerat! Quod, dolorem quisquam illo autem ipsam corporis vero, et iste sint rem sit quae beatae. Numquam, veniam laborum.",
-      "price": "$1.75",
+      "price": 1.75,
+      "total":1.75,
       "img": "../../../assets/images/sugar.jpg"
     },
     {
@@ -70,7 +78,8 @@
       "tag": "brownies",
       "item": "Classic Brownie",
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus asperiores veniam quaerat! Quod, dolorem quisquam illo autem ipsam corporis vero, et iste sint rem sit quae beatae. Numquam, veniam laborum.",
-      "price": "$1.75",
+      "price": 1.75,
+      "total":1.75,
       "img": "../../../assets/images/classic.jpg"
     },
     {
@@ -78,7 +87,8 @@
       "tag": "brownies",
       "item": "Pumpkin Brownie",
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus asperiores veniam quaerat! Quod, dolorem quisquam illo autem ipsam corporis vero, et iste sint rem sit quae beatae. Numquam, veniam laborum.",
-      "price": "$1.75",
+      "price": 1.75,
+      "total":1.75,
       "img": "../../../assets/images/pumpkin.jpg"
     },
     {
@@ -86,7 +96,8 @@
       "tag": "brownies",
       "item": "Walnut and Caramel Brownie",
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus asperiores veniam quaerat! Quod, dolorem quisquam illo autem ipsam corporis vero, et iste sint rem sit quae beatae. Numquam, veniam laborum.",
-      "price": "$1.75",
+      "price": 1.75,
+      "total":1.75,
       "img": "../../../assets/images/walnut swirl.jpg"
     },
     {
@@ -94,7 +105,8 @@
       "tag": "brownies",
       "item": "Marble Brownie",
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus asperiores veniam quaerat! Quod, dolorem quisquam illo autem ipsam corporis vero, et iste sint rem sit quae beatae. Numquam, veniam laborum.",
-      "price": "$1.75",
+      "price": 1.75,
+      "total":1.75,
       "img": "../../../assets/images/marble.jpg"
     }
  

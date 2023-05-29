@@ -1,5 +1,5 @@
 <!-- category header -->
-<div class="container">
+
 <div class="catagory-btns">
   <div class="list">
     <span (click)="OnAllProductsClick()"> All Confections</span>
@@ -17,7 +17,7 @@
 <!-- category header end -->
 
 <!-- product card -->
-<div class="card-container">
+<div class="c-container">
   <ng-container *ngFor="let item of productList">
     <div class="card">
       <div class="card-top">
@@ -33,7 +33,7 @@
       <div class="card-bottom">
         <p>{{ item.description }}</p>
         <p>
-          <strong>{{ item.price }}</strong>
+          <strong>${{ item.price }}</strong>
         </p>
         <button class="btn-add" (click)="addToCart(item)">
           <strong>Add To Cart</strong>
@@ -41,7 +41,6 @@
       </div>
     </div>
   </ng-container>
-</div>
 </div>
 
 <!-- product card end -->

@@ -7,31 +7,31 @@
 .card-title {
   font-family: dancing script;
   font-size: 3rem;
-  color:rgb(139 48 127);
+  color: rgb(139 48 127);
 }
 .h {
   font-family: dancing script;
   font-size: 2rem;
   color: rgb(139 48 127);
 }
-.total{
-  color:#418ec6;
+.total {
+  color: #418ec6;
   font-size: 33px;
 }
 .btn-shop {
   height: 3rem;
   width: 9rem;
-  color:white;
-  font-size:33px;
-  font-family:dancing script, sans-serif;
-  background-color:rgb(250 234 235);
-  color:#418ec6;
+  color: white;
+  font-size: 33px;
+  font-family: dancing script, sans-serif;
+  background-color: rgb(250 234 235);
+  color: #418ec6;
   border: none;
   border-radius: 4px;
-  transition:0.2s;
+  transition: 0.2s;
 }
-.btn-shop:hover{
-  background-color:#418ec6;
+.btn-shop:hover {
+  background-color: #418ec6;
 }
 .center {
   position: absolute;
@@ -43,9 +43,9 @@
 }
 /* cart empty end */
 /* cart with items  */
-.cartview-container{
+.cartview-container {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   align-items: center;
 }
 .bcard-container {
@@ -54,15 +54,14 @@
   align-items: center;
   justify-content: space-evenly;
   margin: 24px;
-  margin-top:6rem;
-  position:relative;
+  margin-top: 6rem;
+  position: relative;
 }
 .bcard {
   box-sizing: border-box;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
   margin: 10px;
-  width:300px;
-
+  width: 300px;
 }
 .bcard-top {
   box-sizing: border-box;
@@ -84,49 +83,48 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
 }
 .bcard-bottom > p {
   line-height: 1.3em;
   text-align: left;
   font-size: 16px;
-  margin:4px;
+  margin: 4px;
 }
 .bcard-bottom > .delete {
   height: 3rem;
   width: 9rem;
   font-family: dancing script, sans-serif;
   font-size: 24px;
-  background-color:rgb(250 234 235);
-  color:red;
+  background-color: rgb(250 234 235);
+  color: red;
   border: none;
   border-radius: 4px;
-  margin:4px;
+  margin: 4px;
 }
 .bcard-bottom > .delete:hover {
   background: #418ec6;
-  color:white;
+  color: white;
 }
-.action-btn{
+.action-btn {
   position: inherit;
   margin-bottom: 5rem;
-  bottom:0;
+  bottom: 0;
 }
-.btn1{
+.btn1 {
   height: 3rem;
   width: 9rem;
   font-family: dancing script, sans-serif;
   font-size: 33px;
-  background-color:rgb(250 234 235);
-  color:#418ec6;
+  background-color: rgb(250 234 235);
+  color: #418ec6;
   border: none;
   border-radius: 4px;
-  margin:19px;
-  transition:0.2s;
+  margin: 19px;
+  transition: 0.2s;
 }
-.btn1:hover{
+.btn1:hover {
   background: #418ec6;
-  color:white;
+  color: white;
 }
 
 /* cart with items end */

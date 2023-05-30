@@ -26,9 +26,9 @@ export class ItemComponent implements OnInit {
       });
     });
 
-    this.cartService.search.subscribe((val:any)=>{
-      this.searchKey=val;
-    })
+    this.cartService.search.subscribe((val: any) => {
+      this.searchKey = val;
+    });
   }
 
   addToCart(item: any) {

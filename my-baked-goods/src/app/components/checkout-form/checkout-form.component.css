@@ -1,50 +1,49 @@
 /* checkoutcard-container */
-.table-card{
-  margin-top:6rem;
-  border:1px solid black;
+.table-card {
+  margin-top: 6rem;
+  border: 1px solid black;
 }
 
-.checkout-img{
-  width:100px;
-  height:100px
+.checkout-img {
+  width: 100px;
+  height: 100px;
 }
-.thead{
-  width:100%;
+.thead {
+  width: 100%;
   color: #8b307f;
-  background-color:rgb(250 234 235);
+  background-color: rgb(250 234 235);
 }
 /* checkoutcard-container end */
 
-
-  /* input */
-.content{
-  margin-bottom:6rem;
+/* input */
+.content {
+  margin-bottom: 6rem;
 }
 /* input end */
 
-.total{
-  color:#418ec6;
+.total {
+  color: #418ec6;
   font-size: 25px;
 }
-  .ck1{
-    height: 3rem;
-    width: 9rem;
-    font-family: dancing script, sans-serif;
-    font-size: 33px;
-    background-color:rgb(250 234 235);
-    color:#418ec6;
-    border: none;
-    border-radius: 4px;
-    margin:20px;
-    transition:0.2s;
-  }
-  .ck1:hover{
-    background: #418ec6;
-    color:white;
-  }
+.ck1 {
+  height: 3rem;
+  width: 9rem;
+  font-family: dancing script, sans-serif;
+  font-size: 33px;
+  background-color: rgb(250 234 235);
+  color: #418ec6;
+  border: none;
+  border-radius: 4px;
+  margin: 20px;
+  transition: 0.2s;
+}
+.ck1:hover {
+  background: #418ec6;
+  color: white;
+}
 
-  @media screen and (max-width: 650px) {
-    .table-card{
-      margin-top:12rem
-    }
+@media screen and (max-width: 650px) {
+  .table-card {
+    margin-top: 12rem;
+  }
 }

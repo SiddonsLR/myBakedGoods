@@ -18,7 +18,10 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 import { HttpClientModule } from '@angular/common/http';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
-import {MatOptionModule, MatOptionParentComponent,} from '@angular/material/core';
+import {
+  MatOptionModule,
+  MatOptionParentComponent,
+} from '@angular/material/core';
 import { MatSelectModule } from '@angular/material/select';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { FooterComponent } from './components/footer/footer.component';

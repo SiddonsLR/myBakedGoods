@@ -8,6 +8,11 @@
   width:100px;
   height:100px
 }
+.thead{
+  width:100%;
+  color: #8b307f;
+  background-color:rgb(250 234 235);
+}
 /* checkoutcard-container end */
 
 
@@ -18,7 +23,7 @@
 /* input end */
 
 .total{
- 
+  color:#418ec6;
   font-size: 25px;
 }
   .ck1{
@@ -26,8 +31,8 @@
     width: 9rem;
     font-family: dancing script, sans-serif;
     font-size: 33px;
-    background-color: #8b307f;
-    color: #eee;
+    background-color:rgb(250 234 235);
+    color:#418ec6;
     border: none;
     border-radius: 4px;
     margin:20px;

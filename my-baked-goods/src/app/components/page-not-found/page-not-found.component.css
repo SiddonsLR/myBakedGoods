@@ -1,0 +1,9 @@
+.pnf{
+    margin-top: 25rem;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    font-family:dancing script, sans-serif;
+    font-size:15rem;
+}

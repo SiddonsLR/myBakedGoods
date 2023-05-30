@@ -18,7 +18,7 @@
 
 <!-- product card -->
 <div class="c-container">
-  <ng-container *ngFor="let item of productList">
+  <ng-container *ngFor="let item of productList| filter:searchKey:'item'">
     <div class="card">
       <div class="card-top">
         <img

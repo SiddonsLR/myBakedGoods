@@ -1,6 +1,6 @@
 <div class="checkoutMargin">
   <!-- table -->
-  <div class="table-card" >
+  <div class="table-card">
     <div class="products-cart">
       <div class="table table-responsive">
         <thead class="thead">
@@ -13,48 +13,34 @@
           </tr>
         </thead>
         <tbody *ngFor="let item of products; let i = index">
-          <td>{{item.item}}</td>
-          <td> <img class="checkout-img" src="{{ item.img }}" alt="Photo of a Shiba Inu" /></td>
-          <td>{{item.description}}</td>
-          <td>{{item.price}}</td>
-          
+          <td>{{ item.item }}</td>
+          <td>
+            <img
+              class="checkout-img"
+              src="{{ item.img }}"
+              alt="Photo of a Shiba Inu"
+            />
+          </td>
+          <td>{{ item.description }}</td>
+          <td>{{ item.price }}</td>
         </tbody>
       </div>
     </div>
   </div>
   <!-- table end -->
-  <!-- card -->
-  <!-- <div class="cart-container">
-    <div class="ccard" *ngFor="let item of products; let i = index">
-      <div class="card-top">
-        <img class="card-img" src="{{ item.img }}" alt="Photo of a Shiba Inu" />
-        <h1>
-          <strong>{{ item.item }}</strong>
-        </h1>
-      </div>
-      <div class="ccard-bottom">
-        <p>{{ item.description }}</p>
-        <p>
-          <strong>{{ item.price }}</strong>
-        </p>
-        <button (click)="removeItem(item)" class="delete">
-          <mat-icon>delete</mat-icon>
-        </button>
-      </div>
-    </div>
-  </div> -->
-  <!-- card end -->
 
   <!-- input -->
   <div class="input-container">
     <div class="row">
       <div class="col-md-6 offset-md-3">
         <form
-          class="content"
-          [formGroup]="checkoutForm"
-          (ngSubmit)="submitData()"
+        name="post"
+        class="content"
+        [formGroup]="checkoutForm"
+        (ngSubmit)="submitData()"
+         #post="ngForm"
         >
-          <!-- first name -->
+          first name
 
           <div class="formGroup">
             <label for="firstName">First Name:</label>
@@ -234,8 +220,10 @@
           <!-- submit button -->
           <div class="formGroup">
             <button class="ck1" type="submit">Buy</button>
-            <button class="ck1" routerLink="/cart" >Return to cart</button>
-            <span class="total"><strong>Total: ${{grandTotal}}</strong></span>
+            <button class="ck1" routerLink="/cart">Return to cart</button>
+            <span class="total"
+              ><strong>Total: ${{ grandTotal }}</strong></span
+            >
           </div>
         </form>
       </div>

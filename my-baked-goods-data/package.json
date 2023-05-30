@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "ng-angular-popup": "^0.3.1",
+    "ng-confirm-box": "^0.1.1"
+  }
+}

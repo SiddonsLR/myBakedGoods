@@ -1,7 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Output,EventEmitter } from '@angular/core';
 import { CartService } from 'src/app/services/cart.service';
 import {Form,FormBuilder,FormControl,FormGroup,Validators,} from '@angular/forms';
-
+import { Checkout } from 'src/app/models/checkout';
+import { NgForm } from '@angular/forms';
+import { CheckoutService } from 'src/app/services/checkout.service';
 
 @Component({
   selector: 'app-checkout-form',
@@ -9,11 +11,20 @@ import {Form,FormBuilder,FormControl,FormGroup,Validators,} from '@angular/forms
   styleUrls: ['./checkout-form.component.css'],
 })
 export class CheckoutFormComponent implements OnInit {
+  checkout:Checkout={
+    id:0,
+    firstName:'',
+    lastName:'',
+    email:'',
+    phone:0,
+    creditCard:''
+   
+  }
   checkoutForm!: FormGroup;
   title = 'mybakedgoods';
   submitted = false;
-
-  constructor(private formBuilder: FormBuilder, private cartService:CartService) {}
+  @Output() typedForm:EventEmitter<Checkout> = new EventEmitter<Checkout>();
+  constructor(private formBuilder: FormBuilder, private cartService:CartService,private checkoutService:CheckoutService ) {}
   public products: any =[];
   public grandTotal : number =0 ;
   date1 = new Date();
@@ -49,9 +60,16 @@ export class CheckoutFormComponent implements OnInit {
       return;
     }
     alert('Thank you for Shopping at Bake My Good');
-    console.log(this.checkoutForm.value);
+    this.checkoutService.postsCheckout(this.checkoutForm.value)
+    .subscribe(res=>{
+      this.checkoutForm.reset()
+    })
+    
+   
   }
   removeItem(item:any){
     this.cartService.removeCartItem(item)
   }
+
+
 }

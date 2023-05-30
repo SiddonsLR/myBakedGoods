@@ -1,12 +1,13 @@
 export interface Checkout {
-    id:number,
+    
+    id?:number,
     firstName: string ,
     lastName:string,
     email:string,
-    creditCard: string,
-    securityNumber: string,
-    expDate: string
-    total: string,
-    date: string,
+    phone:number,
+    creditCard: string
+ 
+    
+    
     
 }

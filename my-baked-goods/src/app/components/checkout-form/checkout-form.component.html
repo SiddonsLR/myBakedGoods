@@ -40,7 +40,7 @@
           (ngSubmit)="submitData()"
           #post="ngForm"
         >
-          first name
+          <!-- first name -->
 
           <div class="formGroup">
             <label for="firstName">First Name:</label>
@@ -222,7 +222,7 @@
             <button class="ck1" type="submit">Buy</button>
             <button class="ck1" routerLink="/cart">Return to cart</button>
             <span class="total"
-              ><strong>Total: ${{ grandTotal }}</strong></span
+              ><strong>Total: {{ grandTotal|currency }}</strong></span
             >
           </div>
         </form>

@@ -29,7 +29,7 @@
       <button routerLink="checkout" class="btn1">Checkout</button>
       <button routerLink="/home" class="btn1">Shop More</button>
       <span class="total"
-        ><strong>Total: ${{ grandTotal }}</strong></span
+        ><strong>Total: {{ grandTotal|currency }}</strong></span
       >
     </div>
   </ng-container>
